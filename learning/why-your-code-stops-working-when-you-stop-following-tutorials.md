@@ -1,242 +1,238 @@
 # Why Your Code Stops Working When You Stop Following Tutorials
 
-## Problem
+## The Problem
 
-A common experience for beginners looks like this:
+Many developers experience the same pattern.
 
-* You finish a course.
-* You complete several tutorials.
-* Everything makes sense while watching.
-* Then you try to build something on your own.
+They complete a tutorial, understand the code, and finish with a working project.
 
-Suddenly, you don't know where to start.
+Then they try to build something on their own.
 
-Many people conclude:
+A simple idea suddenly feels difficult.
 
-> "Maybe I'm not good at programming."
+They get stuck before writing much code.
 
-Usually, that's not the real problem.
+At this point, many people assume they need to learn more programming.
 
-The real problem is that following code and creating code are different skills.
+Usually, that is not the real problem.
 
 ---
 
-## Why It Happens
+## What Tutorials Remove
 
-Most tutorials remove the hardest part of software development:
+The biggest thing tutorials remove is not coding.
 
-**figuring out what to do next.**
+It's decision-making.
 
-The instructor has already:
+A tutorial teaches more than syntax and implementation.
 
-* Chosen the project
-* Designed the structure
-* Decided the features
-* Solved the bugs
-* Planned the implementation
+It also quietly makes decisions for you.
 
-As a learner, your job becomes:
+The instructor has already decided:
 
-> Follow instructions.
+* What to build
+* What features matter
+* What order to build them in
+* How the code should be organized
+* Which approach to use
+* Which problems are worth solving
 
-But real software development is rarely about following instructions.
+You are learning, but you are learning inside a path that someone else created.
 
-It's mostly about making decisions.
+When the tutorial ends, that path disappears.
 
----
+Now the decisions belong to you.
 
-## A Real Example
-
-Imagine you complete a tutorial that builds a To-Do application.
-
-At the end, you understand:
-
-* How tasks are stored
-* How tasks are displayed
-* How tasks are deleted
-
-Everything works.
-
-Now you decide to build a Notes application.
-
-Many beginners get stuck immediately.
-
-Not because Notes are harder than Tasks.
-
-But because nobody is telling them:
-
-* What file to create
-* What function to write
-* What to build first
-
-The problem is not coding.
-
-The problem is decision-making.
+That transition is where many developers struggle.
 
 ---
 
-## What Experienced Developers Do Differently
+## The Difference Between Following and Building
 
-Experienced developers rarely think:
+Consider a tutorial that builds a task management application.
 
-> "How do I build the whole application?"
+The tutorial might tell you:
 
-Instead, they reduce the problem.
+1. Create a project.
+2. Add a task model.
+3. Build a task list.
+4. Add task creation.
+5. Add task deletion.
 
-For example:
+At every step, the next move is obvious.
 
-Instead of:
+Now imagine starting a notes application from scratch.
 
-```text
-Build a Notes App
-```
+Nobody tells you:
 
-They think:
+* What feature comes first
+* How notes should be stored
+* Whether search is necessary
+* How editing should work
+* What can be ignored for now
 
-```text
-Step 1:
-Display a single note.
+The difficulty is not writing code.
 
-Step 2:
-Store multiple notes.
-
-Step 3:
-Create a note.
-
-Step 4:
-Edit a note.
-
-Step 5:
-Delete a note.
-```
-
-Each step becomes a small problem.
-
-Small problems are easier to solve.
+The difficulty is deciding what should happen next.
 
 ---
 
-## A Better Way to Learn
+## Tutorials Teach Answers. Engineering Teaches Question Selection.
 
-After finishing any tutorial:
+This is one of the biggest differences between learning and engineering.
 
-Do not immediately start another tutorial.
+Tutorials are built around answers.
 
-Take the project you just built and change something.
+Engineering is built around questions.
 
-Examples:
+A tutorial answers:
 
-If you built:
+> How do I implement search?
 
-```text
-To-Do App
-```
+Real work often starts earlier:
 
-Try:
+> Do we need search?
 
-```text
-Add categories
-Add search
-Add due dates
-Add filters
-```
+A tutorial answers:
 
-Do not look for another tutorial.
+> How should I store this data?
 
-Try first.
+Real work often starts with:
 
-Struggle a little.
+> What data actually matters?
 
-Read documentation.
+The quality of the questions often determines the quality of the solution.
 
-Search specific questions.
+Experienced engineers are not simply better at answering questions.
 
-This is much closer to real development.
+They are usually better at identifying which questions need to be asked.
 
 ---
 
-## Common Mistakes
+## The GPS vs Driving Mental Model
 
-### Mistake 1: Starting Another Tutorial Immediately
+A tutorial is like GPS navigation.
 
-This creates the feeling of progress without testing understanding.
+It tells you where to turn and when to turn.
 
----
+You still operate the vehicle, but someone else handles the navigation.
 
-### Mistake 2: Copying Without Prediction
+Building software without a tutorial is closer to driving without GPS.
 
-Before reading the next step in a tutorial, pause and ask:
+You must decide:
 
-```text
-What do I think comes next?
-```
+* Where you are going
+* Which route to take
+* What to do when conditions change
 
-This forces your brain to participate.
+The challenge is not controlling the car.
 
----
+The challenge is making decisions with incomplete information.
 
-### Mistake 3: Building Projects That Are Too Large
-
-Beginners often attempt:
-
-```text
-Instagram
-YouTube
-Amazon
-```
-
-These projects contain thousands of decisions.
-
-Start smaller.
+Software projects work the same way.
 
 ---
 
-### Mistake 4: Measuring Progress by Memory
+## What Engineering Actually Feels Like
 
-Professional developers regularly forget syntax.
+Many beginners imagine software engineering as a process of writing code.
 
-They remember:
+In practice, much of the work happens before code is written.
 
-* Patterns
-* Concepts
-* Problem-solving approaches
+Real projects involve questions such as:
 
-Documentation exists for a reason.
+* Where should this feature live?
+* Is this problem worth solving?
+* What assumptions are we making?
+* What should we build first?
+* What can wait until later?
 
----
+These questions rarely come with perfect information.
 
-## Practical Exercise
+Requirements change.
 
-Take a project you already completed.
+Constraints appear.
 
-Remove one feature.
+New information arrives.
 
-Rebuild it without looking at the tutorial.
-
-Examples:
-
-```text
-Login page
-Search feature
-Task creation
-Profile page
-```
-
-If you get stuck:
-
-1. Identify the exact problem.
-2. Search for that specific problem.
-3. Continue.
-
-Avoid searching for the entire solution.
+Engineering is largely the process of making reasonable decisions before all the answers are available.
 
 ---
 
-## Takeaways
+## Why Projects Feel Harder Than Tutorials
 
-* Tutorials teach implementation.
-* Real projects require decisions.
-* Getting stuck is often a planning problem, not a coding problem.
-* Build small features without guidance after every tutorial.
-* Focus on solving one problem at a time.
-* Understanding grows when you make decisions, not when you copy solutions.
+Projects introduce responsibility.
+
+When something is unclear, there is no instructor to provide the next step.
+
+You must decide:
+
+* What to investigate
+* What to prioritize
+* What to ignore
+* What to build
+
+That responsibility often feels uncomfortable at first.
+
+Many developers interpret that discomfort as a lack of knowledge.
+
+Often it is simply the experience of making decisions independently.
+
+---
+
+## One Lesson Experienced Engineers Learn
+
+Beginners often search for the perfect decision.
+
+Experienced engineers eventually learn that many decisions are reversible.
+
+A reasonable decision made today is often more valuable than waiting indefinitely for a perfect one.
+
+Progress creates information.
+
+Information improves future decisions.
+
+This is one reason experienced engineers can move through uncertainty more comfortably.
+
+They know that many choices can be adjusted later.
+
+---
+
+## Tutorials Are Still Valuable
+
+This does not mean tutorials are bad.
+
+Tutorials are excellent for learning:
+
+* Syntax
+* Frameworks
+* Tools
+* Development workflows
+
+They are simply not designed to teach independent decision-making.
+
+Projects fill that gap because they force you to choose a direction when no direction is provided.
+
+The two approaches serve different purposes.
+
+---
+
+## The Real Lesson
+
+Many developers believe they are struggling because they need more coding knowledge.
+
+Sometimes that is true.
+
+But often the real challenge is different.
+
+The tutorial taught you how to implement a solution.
+
+The project asks you to decide what solution should exist in the first place.
+
+That is a different skill.
+
+And it is much closer to what engineering actually is.
+
+Engineering is not just writing code.
+
+Engineering is making decisions with incomplete information.
