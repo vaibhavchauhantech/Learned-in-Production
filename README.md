@@ -38,4 +38,5 @@ debugging/
 mistakes/
 decisions/
 stories/
+projects/
 ```
